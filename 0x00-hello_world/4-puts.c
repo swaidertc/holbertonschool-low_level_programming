@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Main - Start 
+* main - blok 
 * Return: 0
 */
 int main(void)
