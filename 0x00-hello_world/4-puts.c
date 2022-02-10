@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Prints "programming is like building a multilingual.
- *                
- *
- * Return: Always 0.
+ * main - main block
+ * Return: 0
  */
 int main(void)
 {
