@@ -2,8 +2,9 @@
 
 /**
 * main - blok 
-* Return: 0
+* Return: Value 0
 */
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
