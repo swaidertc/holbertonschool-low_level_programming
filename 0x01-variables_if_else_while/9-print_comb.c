@@ -1,25 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - Prints all possible combinations.
+ * main - Entry point
  *
- * Return: Always 0.
-*/
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	int number;
+	int d;
 
-	for (number = 0; number <= 9; number++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar((number % 10) + '0');
-		if (number == 9)
-			continue;
-		
-		putchar(',');
-		putchar(' ');
+		putchar(d);
+		if (d != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-
 	putchar('\n');
 
 	return (0);
