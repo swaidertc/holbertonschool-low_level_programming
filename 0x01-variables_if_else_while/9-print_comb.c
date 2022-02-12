@@ -4,7 +4,8 @@
  * main - Prints all possible combinations.
  *
  * Return: Always 0.
- */
+*/
+
 int main(void)
 {
 	int number;
