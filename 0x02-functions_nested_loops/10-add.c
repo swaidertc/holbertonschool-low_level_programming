@@ -1,3 +1,8 @@
+/*
+ * File: 10-add.c
+ * Auth: Swaidertc
+ */
+
 #include "main.h"
 
 /**
@@ -9,5 +14,5 @@
  */
 int add(int number1, int number2)
 {
-	return (number1 + number2);
+return (number1 + number2);
 }
